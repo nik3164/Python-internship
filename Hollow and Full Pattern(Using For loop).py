@@ -1,11 +1,9 @@
 n = 11
-print("Rectangle")
 for i in range(5):
     for j in range(7):
         print("* ",end = "")
     print()
 
-print("Hollow Rectangle")
 for i in range(5):
     for j in range(7):
          if(i == 0 or i == 5 - 1 or j == 0 or j == 7 - 1):
@@ -14,12 +12,10 @@ for i in range(5):
             print("  ",end = "")
     print()
     
-
 for i in range(80):
     print("-",end='')
 print()
 
-print("Diamond")
 for i in range(1,n+1):
     for j in range(1,n-i+1):
         print(" ",end = "")
@@ -33,7 +29,6 @@ for i in range(n-1,0,-1):
         print("*",end = "")
     print()
 
-print("Hollow Diamond.....!")
 for i in range(1, n+1):
     for j in range(1,n-i+1):
         print(" ", end="")
@@ -58,7 +53,6 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Left Vertical Tringle .....!")
 mid=int(n/2)
 for i in range(n):
     if(i<=mid):
@@ -73,8 +67,6 @@ for i in range(n):
             print("* ",end="")
     print()
 
-
-print("Hollow Left Vertical Tringle .....!")
 mid=int(n/2)
 for i in range(n):
     if(i<=mid):
@@ -95,20 +87,14 @@ for i in range(n):
                 print("  ",end="")
     print()
 
-
 for i in range(80):
     print("-",end="")
 print()
-
-print("Right Angled tringle")
 
 for i in range(n):
     for j in range(i+1):
         print("* ",end="")
     print()
-
-
-print("Hollow Right Angled tringle")
 
 for i in range(n):
     for j in range(i+1):
@@ -122,13 +108,11 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Square")
 for i in range(n):
     for j in range(n):
         print("* ",end = "")
     print()
 
-print("Hollow Square")
 for i in range(n):
     for j in range(n):
         if(i == 0 or i == n-1 or j == 0 or j == n-1):
@@ -141,7 +125,6 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Left Angled tringle")
 for i in range(n):
     for s in range(n, i+1, -1):
         print("  ", end="")
@@ -149,8 +132,6 @@ for i in range(n):
             print("* ", end="")
     print()
 
-
-print("Hollow Left Angled tringle")
 for i in range(n):
     for s in range(n, i+1, -1):
         print("  ", end="")
@@ -165,7 +146,6 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Inverted Left Angled Tringle")
 for i in range(n):
         for s in range(i):
             print("  ",end="")
@@ -173,8 +153,6 @@ for i in range(n):
             print("* ",end="")
         print()
 
-
-print("Hollow Inverted Left Angled Tringle")
 for i in range(n):
         for s in range(i):
             print("  ",end="")
@@ -189,7 +167,6 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Equilateral tringle")
 for i in range(n):
     for s in range(n, i+1, -1):
         print(" ", end="")
@@ -200,7 +177,6 @@ for i in range(n):
             #print(" ", end="")
     print()
 
-print("Hollow Equilateral tringle")
 for i in range(n):
     for s in range(n, i+1, -1):
         print(" ", end="")
@@ -215,7 +191,6 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Inverted Equilateral Tringle")
 for i in range(n):
         for s in range(i):
             print(" ",end="")
@@ -223,7 +198,6 @@ for i in range(n):
             print("* ",end="")
         print()
 
-print("Inverted Equilateral Tringle")
 for i in range(n):
         for s in range(i):
             print(" ",end="")
@@ -238,14 +212,11 @@ for i in range(80):
     print("-",end="")
 print()
 
-print("Inverted Right Angled Tringle")
 for i in range(n-1,-1,-1):
     for j in range(i+1):
         print("*",end="")
     print(" ")
 
-
-print("Hollow Inverted Right Angled Tringle")
 for i in range(n-1,-1,-1):
     for j in range(i+1):
         if(j ==0 or j == i or i == n-1):
@@ -258,7 +229,6 @@ for i in range(80):
     print("-",end='')
 print()
 
-print("Right Vertical Tringle")
 mid=int(n/2)
 for i in range(n):
     if(i<=mid):
@@ -269,7 +239,6 @@ for i in range(n):
             print("* ",end="")
     print()
 
-print("Hollow Right Vertical Tringle")
 mid=int(n/2)
 for i in range(n):
     if(i<=mid):

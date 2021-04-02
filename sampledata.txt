@@ -1,0 +1,4 @@
+rice,40
+wheat,50
+milk,45
+oil,58

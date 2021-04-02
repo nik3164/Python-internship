@@ -1,0 +1,5 @@
+choice 1, added the entry
+choice 2, remove
+choice 3,update
+choice 4, view
+choice 5, exit

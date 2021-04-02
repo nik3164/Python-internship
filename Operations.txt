@@ -1,0 +1,6 @@
+0 , Logged in
+1 , Added new User
+2 , Updated User
+3 , Removed User
+4 , Viewed Entire Data
+5 , Logged off

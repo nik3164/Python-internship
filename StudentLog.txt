@@ -1,0 +1,8 @@
+0 , Logged in.
+4 ,  All Admitted students data displayed. , 2021-03-23 09:02:29.822892 , All data displayed. 
+1 ,  New User Registered. , 2021-03-23 09:02:48.290138 , New User Nikita Registered.
+4 ,  All Admitted students data displayed. , 2021-03-23 09:02:52.002548 , All data displayed. 
+5 ,  Logged off. ,2021-03-23 09:02:55.325308 , User Exited. 
+0 , Logged in.
+4 ,  All Admitted students data displayed. , 2021-03-23 09:06:24.545015 , All data displayed. 
+3 ,  User Removed. , 2021-03-23 09:06:40.424788 , User Sam Removed. 

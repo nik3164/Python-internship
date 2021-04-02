@@ -1,0 +1,7 @@
+
+1. New Admission
+2. Update Info
+3. Remove Admission
+4. View Admissions
+5. Exit
+Choice 5 selected...! , Exit...!
